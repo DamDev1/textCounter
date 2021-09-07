@@ -5,16 +5,16 @@ body{
 }
 
 #container{
-    border: 4px ridge red;
-    max-width: 360px;
-    margin: auto;
-    position: relative;
-    top: 100px;
-    background-color: rgba(50, 20, 10, 0.60);
+    max-width: 500px;
+    
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#container .wrapper{
-    margin: 20px;
+form{
+    background: red;
+    padding: 20px;
 }
 
 #mytext{
@@ -23,18 +23,26 @@ body{
     font-size: large;
 }
 
-#container #texter{
-    font-weight: bold;
-    margin: 25px;
-    padding: 10px;
-    max-width: fit-content;
-    font-size: 15px;
-    font-family: "Sofia" sans-serif;
+.input{
+    text-align: center;
+    margin-top: 30px;
 }
 
-#texter:hover{
-    border: 5px solid rgba(19, 19, 116, 0.4);
+#container #texter{
+    padding: 10px;
+    width: 90%;
+    height: 2vw;
+    font-size: 20px;
 }
+
+.output{
+    background: green;
+}
+
+.output p{
+    margin: 10px;
+}
+
 
 .btn{
     border:none;
@@ -100,10 +108,11 @@ body{
     }
     
     #result{
-    font-size: x-large;
-    font-family: "Sofia" sans-serif;
-    font-weight: bolder;
-    text-align: center;
+        font-size: x-large;
+        font-family: "Sofia" sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -139,10 +148,11 @@ body{
     }
     
     #result{
-    font-size: x-large;
-    font-family: "Sofia" sans-serif;
-    font-weight: bolder;
-    text-align: center;
+        font-size: x-large;
+        font-family: "Sofia" sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -178,10 +188,11 @@ body{
     }
     
     #result{
-    font-size: x-large;
-    font-family: "Sofia" sans-serif;
-    font-weight: bolder;
-    text-align: center;
+        font-size: x-large;
+        font-family: "Sofia" sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -218,10 +229,11 @@ body{
     }
     
     #result{
-    font-size: x-large;
-    font-family: "Sofia" sans-serif;
-    font-weight: bolder;
-    text-align: center;
+        font-size: x-large;
+        font-family: "Sofia" sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 300px) {
@@ -254,10 +266,12 @@ body{
     }
     
     #result{
-    font-size: x-large;
-    font-family: "Sofia" sans-serif;
-    font-weight: bolder;
-    text-align: center;
+        font-size: x-large;
+        font-family: "Sofia" sans-serif;
+        font-weight: bolder;
+        text-align: center;
+
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -271,8 +285,9 @@ body{
     }
     
     #result{
-    font-size: x-large;
-    font-family: "Sofia" sans-serif;
-    font-weight: bolder;
-    text-align: center;
+        font-size: x-large;
+        font-family: "Sofia" sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
 }
