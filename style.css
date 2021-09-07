@@ -1,0 +1,241 @@
+body{
+    background-color: rgba(70, 50, 90, 0.30);
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+#container{
+    border: 4px ridge red;
+    max-width: 360px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    background-color: rgba(50, 20, 10, 0.60);
+}
+
+#container .wrapper{
+    margin: 20px;
+}
+
+#mytext{
+    font-family: "Sofia" sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+#container #texter{
+    font-weight: bold;
+    margin: 25px;
+    padding: 10px;
+    max-width: fit-content;
+    font-size: 15px;
+    font-family: "Sofia" sans-serif;
+}
+
+#texter:hover{
+    border: 5px solid rgba(19, 19, 116, 0.4);
+}
+
+.btn{
+    border:none;
+    font-size: large;
+    background-color: rgba(255, 0, 0, 0.99);
+    width: 25%;
+    height:36px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn:hover{
+    color:white;
+    background-color: rgba(0, 0, 255, 0.89);
+}
+
+#output{
+    font-size: x-large;
+    font-family: "Sofia" sans-serif;
+    font-weight: bolder;
+    margin: 10px;
+    text-align: center;
+}
+
+#result{
+    font-size: x-large;
+    font-family: "Sofia" sans-serif;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+    background-color: rgba(70, 50, 90, 0.30);
+    overflow: auto;
+    box-sizing: border-box;
+    }
+
+    #container{
+        border: 4px ridge goldenrod;
+        max-width: 360px;
+        margin: auto;
+        position: relative;
+        top: 100px;
+        background-color: rgba(50, 60, 200, 0.80);
+    }
+
+    .btn{
+        border:none;
+        font-size: large;
+        background-color: rgba(255, 0, 0, 0.99);
+        width: 25%;
+        height:36px;
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    .btn:hover{
+        color:white;
+        background-color: rgba(0, 255, 255, 0.89);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: rgba(70, 50, 90, 0.30);
+        overflow: auto;
+        box-sizing: border-box;
+    }
+
+    #container{
+        border: 4px ridge skyblue;
+        max-width: 360px;
+        margin: auto;
+        position: relative;
+        top: 100px;
+        background-color: rgba(132, 177, 118, 0.8);
+    }
+
+    .btn{
+        border:none;
+        font-size: large;
+        background-color: rgba(255, 0, 0, 0.99);
+        width: 25%;
+        height:36px;
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    .btn:hover{
+        color:white;
+        background-color: rgba(255, 255, 0, 0.89);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+    background-color: rgba(70, 50, 90, 0.30);
+    overflow: auto;
+    box-sizing: border-box;
+    }
+
+    #container{
+        border: 4px ridge orangered;
+        max-width: 360px;
+        margin: auto;
+        position: relative;
+        top: 100px;
+        background-color: rgba(24, 140, 185, 0.30);
+    }
+
+    .btn{
+        border:none;
+        font-size: large;
+        background-color: rgba(255, 0, 0, 0.99);
+        width: 25%;
+        height:36px;
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    .btn:hover{
+        color:white;
+        background-color: rgba(30, 50, 20, 0.89);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body{
+    background-color: rgba(70, 50, 90, 0.30);
+    overflow: auto;
+    box-sizing: border-box;
+    }
+
+    #container{
+        border: 4px ridge yellowgreen;
+        max-width: 360px;
+        margin: auto;
+        position: relative;
+        top: 100px;
+        background-color: rgba(7, 45, 59, 0.3);
+    }
+    
+
+    .btn{
+        border:none;
+        font-size: large;
+        background-color: rgba(255, 0, 0, 0.99);
+        width: 25%;
+        height:36px;
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    .btn:hover{
+        color:white;
+        background-color: rgba(74, 78, 78, 0.89);
+    }
+}
+
+@media only screen and (max-width: 300px) {
+  body{
+    background-color: rgba(70, 50, 90, 0.30);
+    overflow: auto;
+    box-sizing: border-box;
+    }
+  #container  #texter{
+    font-weight: 400;
+    margin: 6px;
+    padding: 6px;
+    max-width: 120px;
+    }
+
+    .btn{
+        border:none;
+        font-size: large;
+        background-color: rgba(255, 0, 0, 0.99);
+        width: 25%;
+        height:36px;
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    .btn:hover{
+        color:white;
+        background-color: rgba(37, 68, 16, 0.89);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #container{
+        border: 4px ridge red;
+        max-width: 400px;
+        margin: auto;
+        position: relative;
+        top: 100px;
+        background-color: rgba(50, 20, 10, 0.60);
+    }
+}
