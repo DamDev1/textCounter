@@ -11,7 +11,7 @@ function showText() {
     if(num < txt.length) {
         document.querySelector('#mytext').innerHTML  += txt.charAt(num);
         num++;
-        setTimeout(showText, 200)
+        setTimeout(showText, 100)
     }
 }
 
