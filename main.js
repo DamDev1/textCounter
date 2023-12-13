@@ -11,7 +11,7 @@ function showText() {
     if(num < txt.length) {
         document.querySelector('#mytext').innerHTML  += txt.charAt(num);
         num++;
-        setTimeout(showText, 200)
+        setTimeout(showText, 1000)
     }
 }
 
@@ -24,7 +24,7 @@ form.addEventListener('keydown', (function displayCounter() {
         let text2 = txtArea.value.length;
        ouputer.innerText = "The number of letters are: ".concat(text1 + '  (this is encoded)')
        result.innerText = "The number of letters are: ".concat(text2);
-      setTimeout(clear, 60000);
+      setTimeout(clear, 6000);
   } 
 }) )
 
